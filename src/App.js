@@ -1,8 +1,7 @@
 import React from "react";
-const hello = <h1>Hello, World!</h1>;
-
+import { HelloWorld } from "./HelloWorld";
 export class App extends React.Component {
   render() {
-    return hello;
+    return <HelloWorld name="Alessio" />;
   }
 }
